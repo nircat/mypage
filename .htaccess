@@ -1,0 +1,5 @@
+
+#####mime#####
+AddType image/svg+xml .svg
+AddType image/x-icon .ico
+#####end:mime#####
