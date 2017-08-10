@@ -14,7 +14,7 @@ header{
   position: fixed;
   z-index: 10;
 
-  background-color: #ffc860;
+  background-color: #f1b136;
   box-shadow: 0 3px 1px -1px rgba(0, 0, 0, .2);
 }
 header h1 a{
