@@ -18,20 +18,47 @@ header{
   box-shadow: 0 3px 1px -1px rgba(0, 0, 0, .2);
 }
 header h1 a{
-  /*text-shadow: 2px 2px 3px rgba(0,0,0,.2), -1px -1px 3px rgba(0,0,0,.2);*/
+  text-shadow: 7px 3px 8px rgb(183, 136, 46);
   color: white;
   font-size: 40px;
   letter-spacing: 4px;
 }
-header h1 img.smile{
+header div.left,
+header div.right{
   position: absolute;
-  width: 40px;
-  height: 40px;
-  right: 20px;
   top: 0;
   bottom: 0;
   margin: auto;
+}
+header div.right{
+  right: 12px;
+}
+.head-btn{
+  display: inline-block;
+  padding: .6em 1em;
 
+  border-radius: 100px;
+  border: transparent 2px solid;
+  background: white;
+
+  color: #f1b136;
+  font-size: .9em;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+  transition: background .2s ease;
+}
+.head-btn:hover{
+  background: rgba(244,244,244,.9);
+}
+header .right img.smile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  margin-right: 10px;
+  background-color: white;
+  padding: 1px;
 }
 main{
   background-color: #f3f3f3;
@@ -60,7 +87,7 @@ main{
   filter: brightness(100%);
 
   transition: width .2s ease,
-              filter .2s ease;
+              filter .4s ease;
 }
 .sns-link a:hover img{
   width: 90px;

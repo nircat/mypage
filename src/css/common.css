@@ -54,3 +54,8 @@ button {
   -ms-align-items: center;
   align-items: center;
 }
+.no-event{
+    pointer-events: none;
+    user-select: none;
+    touch-callout: none;
+}
