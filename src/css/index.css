@@ -74,15 +74,18 @@ main{
   height: 200px;
   text-align: center;
 }
-.sns-link a{
+.sns-link ul li{
   display: inline-block;
   margin: .5em .8em;
+}
+.link{
+  display: block;
 }
 .sns-link a img{
   width: 70px;
   height: auto;
-
   border-radius: 8px;
+
   box-shadow: 0 4px 4px rgba(0,0,0,0.18);
   filter: brightness(100%);
 
